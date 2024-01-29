@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+  }
+  
+  body{
+    background-color:#00387f;
+    padding: 12px 24px;
+  }
+  
+  #title{
+    margin: 40px 0 10px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  #description{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+  }
+  
+  #survey-form{
+    max-width: 600px;
+    min-width: 300px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #E4EBF5;
+    box-shadow: 2px 2px 1px #00000057, -2px -2px 1px #00000057;
+    border-radius: 5px;
+  }
+  
+  
+  #survey-form input{
+    margin: 5px 0 12px 0;
+    padding: 10px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  #survey-form select{
+    background-color: white;
+    margin: 12px 0;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  
+  
+  #survey-form #radio-option input,
+  #survey-form #best-food input{
+    margin: 3px 10px;
+    padding: 0;
+    height: auto;
+    width: 18px;
+  }
+  
+  div{
+    margin: 6px 0 14px 0;
+  }
+  
+  textarea{
+    margin: 5px 0 12px 0;
+    padding: 10px;
+    width: 100%;
+    height: 90px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  #submit{
+    margin: 40px 10px;
+    padding: 8px 20px;
+    color: white;
+    background-color: #00387f;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  #submit:hover{
+    cursor: pointer;
+    background-color: #00387fbf;
+  }

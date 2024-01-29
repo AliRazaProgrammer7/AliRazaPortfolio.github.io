@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey page</title>
+</head>
+<body>
+  <h1 id="title">dervgoi Survay form</h1>
+  <p id="description">A survey form to improve our services.</p>
+  <form id="survey-form">
+    <label for="name" id="name-label">Enter your name:</label>
+    <br>
+    <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+    <label for="email" id="email-label">Enter your E-mail:</label>
+    <br>
+    <input type="email" name="email" id="email" required placeholder="Enter your e-mail:" min="10" max="99">
+  
+  <label for="number" id="number-label">Enter your age:</label>
+  <br>
+    <input type="number" name="age" id="number" placeholder="Enter your age:" min="10" max="99">
+
+    <label for="dropdown">which food do you like the most:</label>
+    <br>
+    <select id="dropdown">
+      <option>--Select here--</option>
+      <option value="junk-food">Junk food</option>
+      <option value="healthy-food">healthy food</option>
+    </select>
+    <br>
+    <label for="recomendation">would you recomend our resturant to you friends:</label>
+    <br>
+  <div>
+    <label for="yes" id="radio-option"><input type="radio" name="recomend" value="yes">yes<label><br>
+  <label for="no" id="radio-option"><input type="radio" name="recomend" value="no">no<label>
+  </div>
+
+  <label for="checkboxes" >which of our foods are best:</label><br>
+  <div><label for="burger" id="best-food"><input type="checkbox" id="checkboxes" value="burger">burger</label><br>
+  <label for="pizza" id="best-food"><input type="checkbox" id="checkboxes" value="pizza">pizza</label><br>
+  <label for="soft-drink" id="best-food"><input type="checkbox" id="checkboxes" value="soft-drink">soft drink</label><br>
+  </div>
+  <label for="textarea">any suggestion you wanna make:</label><br>
+  <textarea placeholder="write your suggestion here."></textarea>
+
+  <button type="submit" id="submit">submit</button>
+  </form>
+</body>
+</html>
